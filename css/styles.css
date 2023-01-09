@@ -451,7 +451,6 @@ h3 {
   grid-template-areas:
   "a a b b c c"
   ". d d i i .";
-  justify-content: space-between;
   row-gap: 48px;
   column-gap: 70px;
   margin: 0;
@@ -528,4 +527,88 @@ h3 {
 
 .button-wrapper__button {
   margin-left: 16px;
+}
+
+
+/* WORK  */
+.work {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.work__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.work__content {
+  max-width: 719px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.work__title {
+  margin-bottom: 16px;
+}
+
+.work__text {
+  margin: 0;
+}
+
+.work__list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-width: 832px;
+  width: 100%;
+}
+
+.work__item:not(:last-child) {
+  margin-bottom: 48px;
+}
+
+.work__item:nth-child(odd) > .step__inner {
+  flex-direction: row-reverse;
+}
+
+.work__item:nth-child(odd) > .step__inner > .step__img {
+  margin-right: 10px;
+}
+
+.work__item:nth-child(even) > .step__inner > .step__img {
+  margin-left: 10px;
+}
+
+.step__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.step__content {
+  max-width: 500px;
+  width: 100%;
+}
+
+.step__title {
+  font-size: 20px;
+  line-height: 130%;
+  margin-bottom: 8px;
+}
+
+.step__text {
+  margin: 0;
+}
+
+.step__img {
+  display: block;
+  width: 300px;
+  height: auto;
+  object-fit: contain;
 }
