@@ -447,7 +447,11 @@ h3 {
 
 .services__list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "a a b b c c"
+  ". d d i i .";
+  justify-content: space-between;
   row-gap: 48px;
   column-gap: 70px;
   margin: 0;
@@ -471,9 +475,20 @@ h3 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
-.services__item:nth-child(4) {
-  grid-column-start: 2;
-  grid-column-end: 3;
+.item-a {
+  grid-area: a;
+}
+.item-b {
+  grid-area: b;
+}
+.item-c {
+  grid-area: c;
+}
+.item-d {
+  grid-area: d;
+}
+.item-i {
+  grid-area: i;
 }
 
 .item__inner {
