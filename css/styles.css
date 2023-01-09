@@ -40,16 +40,16 @@ img {
 
 /* FOCUS-STYLES  */
 *:focus {
-  outline: 3px dashed var(black);
+  outline: 3px dashed var(--black);
   outline-offset: 3px;
 }
 
 /* CONTAINER  */
 .container {
-  max-width: 1200px;
+  max-width: 1140px;
   width: 100%;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
