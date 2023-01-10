@@ -74,7 +74,7 @@
           </li>
         </ul>
       </nav>
-      <a class="button site-header__button" href="tel:+998909213711">+998 90 921 37 11</a>
+      <a class="button site-header__button" href="tel:+998909213711" id="tel">+998 90 921 37 11</a>
     </div>
   </header>
 
@@ -87,7 +87,7 @@
           <p class="hero__text">O'z biznesingizni soha mutaxassislariga ishonib topshiring. Bizga ishongan hech bir mijozni hali havsalasi pir bo'lmagan. Biz sizni ishonchingizni oqlaymiz demaymiz, bizga ishonsangiz biznesingiz uchmasligi mumkin, lekin ehtimoli baland...</p>
           <a class="button hero__button" href="#">Xizmatlar bilan tanishish</a>
         </div>
-        <iframe class="hero__video" width="458" height="258" src="https://www.youtube.com/embed/6_pru8U2RmM" title="The whole working-from-home thing — Apple" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe class="hero__video" width="458" height="258" src="https://www.youtube.com/embed/6_pru8U2RmM" title="The whole working-from-home thing — Apple" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
 
     </div>
@@ -213,7 +213,99 @@
       </div>
     </section>
 
+    <!-- CTA  -->
+    <section class="cta">
+      <div class="container cta__container">
+        <div class="cta__content">
+          <h2 class="title cta__title">Buyurtma berish</h2>
+          <p class="cta__text">Quyidagi ma'lumotlarni to'ldiring. Tez orada siz bilan bog'lanamiz ! Agar siz bilan 3 ish kuni mobaynida bog'lanmasak <a href="#tel">+998 90 921 37 11</a> ishonch telefoniga murojat qilishingiz mumkin</p>
+        </div>
+        <form class="index-form cta__form" action="https://echo.htmlacademy.ru"  method="post" target="_blank">
+          <div class="index-form__inner">
+            <div>
+              <input class="index-form__input" type="text" name="name" placeholder="Ismingiz" required>
+            </div>
+            <div>
+              <input class="index-form__input" type="text" name="number" placeholder="Telefon raqamingiz" required>
+            </div>
+            <div class="index-form__select-wrapper">
+              <select class="index-form__select" name="work" id="work">
+                <option value="Website">Vebsayt</option>
+                <option value="Telegram bot">Telegram bot</option>
+                <option value="SMM">SMM</option>
+                <option value="Graphic design">Grafik dizayn</option>
+                <option value="CRM system">CRM tizim</option>
+              </select>
+            </div>
+            <button class="button index-form__button" type="submit">Buyurtma berish</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
   </main>
+
+
+  <!-- SITE-FOOTER  -->
+  <footer class="site-footer">
+    <div class="container site-footer__container">
+      <div class="site-footer__copyright copyright">
+        <div class="copyright__date">Copyright 2020</div>
+        <p class="copyright__text">Barcha huquqlar himoyalangan 2020</p>
+      </div>
+
+      <!-- SITENAV  -->
+      <div class="sitenav site-footer__sitenav">
+        <h2 class="site-footer__title">Sayt sahifalari</h2>
+        <ul class="sitenav__list">
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#">Bosh sahifa</a>
+          </li>
+          <li class="sitenav__item service">
+            <a class="sitenav__link" href="#services">Xizmatlar</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#">Portfolio</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#">Jamoa</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#">Blog</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#">Kontaktlar</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- SOCIAL  -->
+      <ul class="social">
+        <!-- TELEGRAM  -->
+        <li class="social__item">
+          <a class="social__link link" href="https://t.me/pixer_uz" target="_blank">
+            <span class="link__text">Telegram</span>
+            <img class="link__img" src="img/telegram.svg" alt="Telegram" width="22" height="24">
+          </a>
+        </li>
+        <!-- FACEBOOK  -->
+        <li class="social__item">
+          <a class="social__link link" href="https://www.facebook.com/p1xeruz/" target="_blank">
+            <span class="link__text">Facebook</span>
+            <img class="link__img" src="img/facebook.svg" alt="Facebook" width="22" height="24">
+          </a>
+        </li>
+        <!-- INSTAGRAM  -->
+        <li class="social__item">
+          <a class="social__link link" href="https://www.instagram.com/pixer.uz/" target="_blank">
+            <span class="link__text">Instagram</span>
+            <img class="link__img" src="img/instagram.svg" alt="Instagram" width="22" height="24">
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </footer>
 
   <script src="js/main.js"></script>
 </body>
