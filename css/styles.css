@@ -551,14 +551,14 @@ h3 {
   margin: 0;
 }
 
-.services__button-wrapper {
+.index-services__button-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 16px;
 }
 
-.services__button-wrapper ~ .button:not(:last-child) {
+.index-services__button-wrapper ~ .button:not(:last-child) {
   margin-left: 16px;
 }
 
@@ -864,4 +864,125 @@ h3 {
   width: 22px;
   height: 24px;
   order: -1;
+}
+
+
+
+/* SERVICES  */
+.services-hero {
+  background-color: var(--white);
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.services-hero__content {
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+.services-hero__title {
+  margin-bottom: 16px;
+  font-size: 40px;
+  line-height: 130%;
+}
+
+.services-hero__text {
+  margin: 0;
+}
+
+.services {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.services__list {
+  width: 100%;
+  max-width: 804px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.services__card {
+  width: 100%;
+}
+
+.services__card:not(:last-child) {
+  margin-bottom: 64px;
+}
+
+.card {
+  background-color: var(--white);
+  box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.12);
+  border-radius:var(--brrr);
+  padding: 32px;
+}
+
+.card__inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.card__img {
+  display: block;
+  width: 200px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.card__content {
+  width: 100%;
+  max-width: 500px;
+}
+
+.card__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.card__title {
+  font-size: 20px;
+  line-height: 130%;
+  margin-bottom: 16px;
+}
+
+.card__text {
+  margin: 0;
+}
+
+.card__list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  margin-bottom: 16px;
+  padding: 0;
+  list-style: none;
+}
+
+.card__item::before {
+  display: block;
+  border-radius: 50%;
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-color: var(--blue);
+  margin-right: 8px;
+}
+
+.element {
+  display: flex;
+  align-items: center;
+}
+
+.card__button-wrapper {
+  display: flex;
+}
+
+.card__button-wrapper > .button:not(:first-child) {
+  margin-left: 16px;
 }
