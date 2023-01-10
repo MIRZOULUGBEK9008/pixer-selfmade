@@ -964,6 +964,10 @@ h3 {
   list-style: none;
 }
 
+.card__item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
 .card__item::before {
   display: block;
   border-radius: 50%;
