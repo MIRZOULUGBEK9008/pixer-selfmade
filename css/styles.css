@@ -78,6 +78,7 @@
   left: 0;
   border-radius: 4px;
 }
+
 @keyframes bxSpin {
   17% {
     border-bottom-right-radius: 3px;
@@ -366,6 +367,10 @@ h3 {
   text-align: center;
   color: var(--black);
   transition: var(--transition);
+}
+
+.sitenav__link.active::before {
+  background-color: var(--black);
 }
 
 .sitenav__link::before {
