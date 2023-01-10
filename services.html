@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixer | Xizmatlar</title>
+
+  <!-- FAVICON -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- STYLES  -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- <link rel="stylesheet" href="css/css.min.css"> -->
+</head>
+<body>
+  <!-- LOADER  -->
+  <div class="loader-wrapper">
+    <span class="loader"></span>
+  </div>
+
+  <!-- SITE-HEADER  -->
+  <header class="site-header">
+    <div class="container site-header__container">
+      <!-- LOGO -->
+      <a class="logo" href="index.html">
+        <img class="logo__img" src="img/logo.svg" alt="Pixer logo" width="58" height="20">
+      </a>
+
+      <!-- SITENAV  -->
+      <nav class="sitenav site-header__sitenav">
+        <ul class="sitenav__list">
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#" tabindex="-1">Bosh sahifa</a>
+          </li>
+          <li class="sitenav__item service">
+            <a class="sitenav__link active" href="#services" tabindex="-1">Xizmatlar</a>
+            <ul class="service__list">
+              <li class="service__item">
+                <a class="service__link" href="#">Vebsayt</a>
+              </li>
+              <li class="service__item">
+                <a class="service__link" href="#">Telegram bot</a>
+              </li>
+              <li class="service__item">
+                <a class="service__link" href="#">SMM</a>
+              </li>
+              <li class="service__item">
+                <a class="service__link" href="#">Grafik dizayn</a>
+              </li>
+              <li class="service__item">
+                <a class="service__link" href="#">CRM tizim</a>
+              </li>
+            </ul>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#" tabindex="-1">Portfolio</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#" tabindex="-1">Jamoa</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#" tabindex="-1">Blog</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#" tabindex="-1">Kontaktlar</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="button site-header__button" href="tel:+998909213711" id="tel">+998 90 921 37 11</a>
+    </div>
+  </header>
+
+  <main class="main-content main-content-services">
+
+    <!-- SERVICES-HERO  -->
+    <div class="services-hero">
+      <div class="container services-hero__container">
+        <div class="services-hero__content">
+          <h1 class="services-hero__title">Xizmatlar</h1>
+          <p class="services-hero__text">Xizmatlarimiz bilan tanishib chiqishingiz mumkin hammasi haqida ba'tafsil yozilgan. Sizga omad, bizga serdaromad 😊</p>
+        </div>
+      </div>
+
+
+      <!-- SERVICES  -->
+      <section class="services">
+        <div class="container services__container">
+          <section class="services__list">
+            <!-- WEBSITE  -->
+            <div class="services__card card">
+              <div class="card__inner">
+                <img class="card__img" src="img/website.svg" alt="Rasm yuklanmoqda..." width="200" height="128">
+                <div class="card__content">
+                  <div class="card__info">
+                    <h2 class="card__title">Sayt tuzish</h2>
+                    <p class="card__text">Siz hayolingizga kelgan biron vebsaytni ayting, biz esa uni tuzishga harakat qilamiz. Turli xil murakkablikdagi saytlarni tuzamiz, dizaynidan tortib "backend"digacha</p>
+                  </div>
+                  <ul class="card__list">
+                    <li class="card__item element">
+                      <span class="element__text">lending</span>
+                    </li>
+                    <li class="card__item element">
+                      <span class="element__text">vizitka</span>
+                    </li>
+                    <li class="card__item element">
+                      <span class="element__text">korporativ</span>
+                    </li>
+                    <li class="card__item element">
+                      <span class="element__text">internet do'kon</span>
+                    </li>
+                    <li class="card__item element">
+                      <span class="element__text">maxsus</span>
+                    </li>
+                  </ul>
+                  <div class="card__button-wrapper">
+                    <a class="button" href="#order">Buyurtma berish</a>
+                    <a class="button button--simple" href="#">Batafsil ma’lumot</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- TELEGRAM-BOT  -->
+            <div class="services__card card">
+              <div class="card__inner">
+                <img class="card__img" src="img/bot.svg" alt="Rasm yuklanmoqda..." width="200" height="117">
+                <div class="card__content">
+                  <div class="card__info">
+                    <h2 class="card__title">Telegram bot tuzish</h2>
+                    <p class="card__text">Zerikkanda siz bilan muloqat qilib o'tiradigan do'st(bot) kerakmi ? shun kungacha 45 dan ziyod telegram botlarni tuzib kelamiz(tajriba talaygina)</p>
+                  </div>
+                  <ul class="card__list">
+                    <li class="card__item element">
+                      <span class="element__text">kontakt bot</span>
+                    </li>
+                    <li class="card__item element">
+                      <span class="element__text">ballar yig’ish</span>
+                    </li>
+                    <li class="card__item element">
+                      <span class="element__text">yetkazib berish</span>
+                    </li>
+                    <li class="card__item element">
+                      <span class="element__text">Telegram oldi-sotdi</span>
+                    </li>
+                    <li class="card__item element">
+                      <span class="element__text">ovoz bilan ishlash</span>
+                    </li>
+                    <li class="card__item element">
+                      <span class="element__text">maxsus</span>
+                    </li>
+                  </ul>
+                  <div class="card__button-wrapper">
+                    <a class="button" href="#order">Buyurtma berish</a>
+                    <a class="button button--simple" href="#">Batafsil ma’lumot</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- SMM  -->
+            <div class="services__card card">
+              <div class="card__inner">
+                <img class="card__img" src="img/smm.svg" alt="Rasm yuklanmoqda..." width="200" height="147">
+                <div class="card__content">
+                  <div class="card__info">
+                    <h2 class="card__title">SMM</h2>
+                    <p class="card__text">Social Media Marketing yohud bizning "SMM"shiklar. Bozorlarda kartoshka, piyoz va go'sht mahsulotlari sotiladi, umuman oziq-ovqatni topishingiz mumkin. Biznikilar esa matn sotadi (AUF 😊)</p>
+                  </div>
+                  <ul class="card__list">
+                    <li class="card__item element">
+                      <span class="element__text">Facebook</span>
+                    </li>
+                    <li class="card__item element">
+                      <span class="element__text">Instagram</span>
+                    </li>
+                    <li class="card__item element">
+                      <span class="element__text">TikTok</span>
+                    </li>
+                    <li class="card__item element">
+                      <span class="element__text">reklamalarni sozlash</span>
+                    </li>
+                    <li class="card__item element">
+                      <span class="element__text">aksiyalar uyushtirish</span>
+                    </li>
+                  </ul>
+                  <div class="card__button-wrapper">
+                    <a class="button" href="#order">Buyurtma berish</a>
+                    <a class="button button--simple" href="#">Batafsil ma’lumot</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- GRAPHIC-DESIGN  -->
+            <div class="services__card card">
+              <div class="card__inner">
+                <img class="card__img" src="img/graphic-design.svg" alt="Rasm yuklanmoqda..." width="200" height="145">
+                <div class="card__content">
+                  <div class="card__info">
+                    <h2 class="card__title">Grafik dizayn</h2>
+                    <p class="card__text">Kreativ fikrga boy dizaynerlarimizdan tayyor sovg'alar. kReativlik borasida 35 yoshlik dizaynerlarimiz 4 yoshli boladek fikrlaydi (tushungan tushundi)</p>
+                  </div>
+                  <ul class="card__list">
+                    <li class="card__item element">
+                      <span class="element__text">logotip</span>
+                    </li>
+                    <li class="card__item element">
+                      <span class="element__text">korporativ stil</span>
+                    </li>
+                    <li class="card__item element">
+                      <span class="element__text">brending</span>
+                    </li>
+                    <li class="card__item element">
+                      <span class="element__text">ijtimoiy tarmoq sahifalari uchun posterlar</span>
+                    </li>
+                  </ul>
+                  <div class="card__button-wrapper">
+                    <a class="button" href="#order">Buyurtma berish</a>
+                    <a class="button button--simple" href="#">Batafsil ma’lumot</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- CRM  -->
+            <div class="services__card card">
+              <div class="card__inner">
+                <img class="card__img" src="img/crm.svg" alt="Rasm yuklanmoqda..." width="200" height="154">
+                <div class="card__content">
+                  <div class="card__info">
+                    <h2 class="card__title">CRM tizimlar</h2>
+                    <p class="card__text">Zamonaviy CRM tizimlarni birgalikda yaratamiz(ushbu gap baland parvoz edi, tayyor CRM tizimlar yadrosidan foydalanamiz 😊)</p>
+                  </div>
+                  <ul class="card__list">
+                    <li class="card__item element">
+                      <span class="element__text">do’konlar va omborlar</span>
+                    </li>
+                    <li class="card__item element">
+                      <span class="element__text">oshxona, kafe va restoranlar</span>
+                    </li>
+                    <li class="card__item element">
+                      <span class="element__text">shaxsiy hisob-kitoblar</span>
+                    </li>
+                    <li class="card__item element">
+                      <span class="element__text">maxsus</span>
+                    </li>
+                  </ul>
+                  <div class="card__button-wrapper">
+                    <a class="button" href="#order">Buyurtma berish</a>
+                    <a class="button button--simple" href="#">Batafsil ma’lumot</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </div>
+
+    <!-- CTA  -->
+    <section class="cta" id="order">
+      <div class="container cta__container">
+        <div class="cta__content">
+          <h2 class="title cta__title">Buyurtma berish</h2>
+          <p class="cta__text">Quyidagi ma'lumotlarni to'ldiring. Tez orada siz bilan bog'lanamiz ! Agar siz bilan 3 ish kuni mobaynida bog'lanmasak <a href="#tel">+998 90 921 37 11</a> ishonch telefoniga murojat qilishingiz mumkin</p>
+        </div>
+        <form class="index-form cta__form" action="https://echo.htmlacademy.ru"  method="post" target="_blank">
+          <div class="index-form__inner">
+            <div>
+              <input class="index-form__input" type="text" name="name" placeholder="Ismingiz" required>
+            </div>
+            <div>
+              <input class="index-form__input" type="text" name="number" placeholder="Telefon raqamingiz" required>
+            </div>
+            <div class="index-form__select-wrapper">
+              <select class="index-form__select" name="work" id="work">
+                <option value="Website">Vebsayt</option>
+                <option value="Telegram bot">Telegram bot</option>
+                <option value="SMM">SMM</option>
+                <option value="Graphic design">Grafik dizayn</option>
+                <option value="CRM system">CRM tizim</option>
+              </select>
+            </div>
+            <button class="button index-form__button" type="submit">Buyurtma berish</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- SITE-FOOTER  -->
+  <footer class="site-footer">
+    <div class="container site-footer__container">
+      <div class="site-footer__copyright copyright">
+        <div class="copyright__date">Copyright 2020</div>
+        <p class="copyright__text">Barcha huquqlar himoyalangan 2020.</p>
+      </div>
+
+      <!-- SITENAV  -->
+      <div class="sitenav site-footer__sitenav">
+        <h2 class="site-footer__title">Sayt sahifalari</h2>
+        <ul class="sitenav__list">
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#">Bosh sahifa</a>
+          </li>
+          <li class="sitenav__item service">
+            <a class="sitenav__link" href="#services">Xizmatlar</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#">Portfolio</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#">Jamoa</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#">Blog</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#">Kontaktlar</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- SOCIAL  -->
+      <div class="site-footer__title-social-wrapper">
+        <h2 class="site-footer__title">Biz internetda</h2>
+        <ul class="social site-footer__social">
+          <!-- TELEGRAM  -->
+          <li class="social__item">
+            <a class="social__link link" href="https://t.me/pixer_uz" target="_blank">
+              <span class="link__text">Telegram</span>
+              <img class="link__img" src="img/telegram.svg" alt="Telegram" width="22" height="24">
+            </a>
+          </li>
+          <!-- FACEBOOK  -->
+          <li class="social__item">
+            <a class="social__link link" href="https://www.facebook.com/p1xeruz/" target="_blank">
+              <span class="link__text">Facebook</span>
+              <img class="link__img" src="img/facebook.svg" alt="Facebook" width="22" height="24">
+            </a>
+          </li>
+          <!-- INSTAGRAM  -->
+          <li class="social__item">
+            <a class="social__link link" href="https://www.instagram.com/pixer.uz/" target="_blank">
+              <span class="link__text">Instagram</span>
+              <img class="link__img" src="img/instagram.svg" alt="Instagram" width="22" height="24">
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
